@@ -1,1 +1,647 @@
-{"stock":{"A100_40GB":{"na-us-bos-1":{"available_now":0,"available_reserve":8},"na-us-bos-2":{"available_now":0,"available_reserve":16},"na-us-chi-1":{"available_now":36,"available_reserve":43},"na-us-las-1":{"available_now":0,"available_reserve":0},"na-us-nyc-1":{"available_now":0,"available_reserve":0},"na-us-nyc-2":{"available_now":0,"available_reserve":0},"oc-sg-sin-1":{"available_now":0,"available_reserve":0}},"A100_40GB_NVLINK":{"na-us-bos-1":{"available_now":0,"available_reserve":8},"na-us-bos-2":{"available_now":0,"available_reserve":0},"na-us-chi-1":{"available_now":0,"available_reserve":100},"na-us-las-1":{"available_now":0,"available_reserve":0},"na-us-nyc-1":{"available_now":0,"available_reserve":0},"na-us-nyc-2":{"available_now":0,"available_reserve":0},"oc-sg-sin-1":{"available_now":0,"available_reserve":0}},"A100_80GB":{"na-us-bos-1":{"available_now":0,"available_reserve":0},"na-us-bos-2":{"available_now":0,"available_reserve":0},"na-us-chi-1":{"available_now":7,"available_reserve":17},"na-us-las-1":{"available_now":0,"available_reserve":0},"na-us-nyc-1":{"available_now":0,"available_reserve":0},"na-us-nyc-2":{"available_now":0,"available_reserve":0},"oc-sg-sin-1":{"available_now":0,"available_reserve":0}},"A40":{"na-us-bos-1":{"available_now":0,"available_reserve":8},"na-us-bos-2":{"available_now":0,"available_reserve":8},"na-us-chi-1":{"available_now":60,"available_reserve":100},"na-us-las-1":{"available_now":100,"available_reserve":100},"na-us-nyc-1":{"available_now":64,"available_reserve":100},"na-us-nyc-2":{"available_now":0,"available_reserve":0},"oc-sg-sin-1":{"available_now":0,"available_reserve":0}},"A4000":{"na-us-bos-1":{"available_now":0,"available_reserve":0},"na-us-bos-2":{"available_now":0,"available_reserve":0},"na-us-chi-1":{"available_now":100,"available_reserve":100},"na-us-las-1":{"available_now":100,"available_reserve":100},"na-us-nyc-1":{"available_now":100,"available_reserve":100},"na-us-nyc-2":{"available_now":0,"available_reserve":0},"oc-sg-sin-1":{"available_now":0,"available_reserve":0}},"A5000":{"na-us-bos-1":{"available_now":0,"available_reserve":8},"na-us-bos-2":{"available_now":0,"available_reserve":8},"na-us-chi-1":{"available_now":43,"available_reserve":100},"na-us-las-1":{"available_now":69,"available_reserve":100},"na-us-nyc-1":{"available_now":100,"available_reserve":100},"na-us-nyc-2":{"available_now":0,"available_reserve":0},"oc-sg-sin-1":{"available_now":0,"available_reserve":0}},"A6000":{"na-us-bos-1":{"available_now":0,"available_reserve":0},"na-us-bos-2":{"available_now":0,"available_reserve":0},"na-us-chi-1":{"available_now":60,"available_reserve":100},"na-us-las-1":{"available_now":52,"available_reserve":100},"na-us-nyc-1":{"available_now":100,"available_reserve":100},"na-us-nyc-2":{"available_now":0,"available_reserve":0},"oc-sg-sin-1":{"available_now":0,"available_reserve":0}},"QUADRO_4000":{"na-us-bos-1":{"available_now":0,"available_reserve":14},"na-us-bos-2":{"available_now":0,"available_reserve":14},"na-us-chi-1":{"available_now":100,"available_reserve":100},"na-us-las-1":{"available_now":100,"available_reserve":100},"na-us-nyc-1":{"available_now":100,"available_reserve":100},"na-us-nyc-2":{"available_now":29,"available_reserve":36},"oc-sg-sin-1":{"available_now":0,"available_reserve":0}},"QUADRO_5000":{"na-us-bos-1":{"available_now":0,"available_reserve":0},"na-us-bos-2":{"available_now":0,"available_reserve":0},"na-us-chi-1":{"available_now":100,"available_reserve":100},"na-us-las-1":{"available_now":100,"available_reserve":100},"na-us-nyc-1":{"available_now":100,"available_reserve":100},"na-us-nyc-2":{"available_now":1,"available_reserve":5},"oc-sg-sin-1":{"available_now":0,"available_reserve":0}},"V100_16GB":{"na-us-bos-1":{"available_now":0,"available_reserve":14},"na-us-bos-2":{"available_now":0,"available_reserve":14},"na-us-chi-1":{"available_now":20,"available_reserve":21},"na-us-las-1":{"available_now":0,"available_reserve":0},"na-us-nyc-1":{"available_now":0,"available_reserve":0},"na-us-nyc-2":{"available_now":0,"available_reserve":0},"oc-sg-sin-1":{"available_now":0,"available_reserve":0}},"V100_16GB_NVLINK":{"na-us-bos-1":{"available_now":0,"available_reserve":0},"na-us-bos-2":{"available_now":0,"available_reserve":0},"na-us-chi-1":{"available_now":75,"available_reserve":90},"na-us-las-1":{"available_now":0,"available_reserve":0},"na-us-nyc-1":{"available_now":0,"available_reserve":0},"na-us-nyc-2":{"available_now":0,"available_reserve":0},"oc-sg-sin-1":{"available_now":0,"available_reserve":0}}},"success":true}
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
+        name="viewport" />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png">
+    <link rel="manifest" href="/static/site.webmanifest">
+    <link rel="mask-icon" href="/static/safari-pinned-tab.svg" color="#2fa858">
+    <link rel="shortcut icon" href="/static/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="/static/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/static/css/libs.bundle.css" />
+
+    <link rel="stylesheet" href="/static/css/theme.bundle.css" />
+    <link rel="stylesheet" href="/static/css/custom.css" />
+
+
+    <!-- Fontawesome Icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <script src="https://kit.fontawesome.com/c649e145db.js" crossorigin="anonymous"></script>
+
+    <!-- Feather Icons -->
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P5VZBVFLDE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('set', 'linker', {
+            'domains': ['tensordock.com', 'console.tensordock.com'],
+            'accept_incoming': true,
+            'decorate_forms': true
+        });
+        gtag('js', new Date());
+
+        gtag('config', 'G-P5VZBVFLDE');
+    </script>
+    <script type="text/javascript">
+        (function (d, u, h, s) {
+            h = d.getElementsByTagName('head')[0];
+            s = d.createElement('script');
+            s.async = 1;
+            s.src = u + new Date().getTime();
+            h.appendChild(s);
+        })(document, 'https://grow.clearbitjs.com/api/pixel.js?k=pk_893db8137134e063c49f74a85f9a33a4&v=');
+    </script>
+
+    <!-- Title -->
+    <title>A Internal Server Error Has Occurred! - TensorDock Console</title>
+</head>
+
+<body>
+    <!-- Fade-in blocker -->
+    <div class="slider" id="slider" style="z-index:9999;">
+        <div class="line"></div>
+        <div class="subline inc"></div>
+        <div class="subline dec"></div>
+    </div>
+
+    <svg id="fader"></svg>
+
+    <div class="modal fade" id="depositFundsModal" tabindex="-1" role="dialog" aria-labelledby="depositFundsModal"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">Deposit Funds</h2><button type="button" class="btn-close"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Deposit $5.00-$10,000.00 to your account.</p>
+                    <p>How much would you like to deposit?</p>
+                    <div class="row">
+                        <div class="col-auto pt-2">
+                            <p>$</p>
+                        </div>
+                        <div class="col-auto">
+                            <input id="fundsDepositAmount" type="number" class="form-control" step="0.01" value="5.00"
+                                min="5.00" max="10000.00" placeholder='5.00' onchange="updateDepositButton()">
+                        </div>
+                    </div>
+                    <br>
+                    <small>Note: your card number will be saved by Stripe for frictionless future checkouts. This data
+                        is stored securely stored by Stripe (we don't see it!), and your card won't ever be
+                        automatically charged unless you get a recurring subscription. You can always delete your card's
+                        info on the <a href="/createPortalSession">subscription billing
+                            portal</a>.</small>
+                    <br>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-outline-primary" data-bs-dismiss="modal" aria-label="Close">&nbsp;Cancel</a>
+                    <a href="#!" class="btn btn-primary" id="depositFundsBtn">Proceed</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="promoCodeModal" tabindex="-1" role="dialog" aria-labelledby="promoCodeModal"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">Promo Codes</h2><button type="button" class="btn-close"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Type in a valid Promo Code (case-sensitive).</p>
+                    <div class="row">
+                        <div class="col-auto">
+                            <input id="promoCodeInput" type="text" class="form-control"
+                                placeholder='Type Promo Code Here' onchange="updatePromoButton()">
+                        </div>
+                    </div>
+                    <br>
+                    <small>Note: Promo Codes may expire and be unusable. Each user can use each Promo Code once.
+                        Different Promo Codes may award different amounts of credits/discounts.</small>
+                    <br>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-outline-primary" data-bs-dismiss="modal" aria-label="Close">&nbsp;Cancel</a>
+                    <a href="#!" class="btn btn-secondary" id="promoCodeBtn">Proceed</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg border-bottom" id="mobileNavbar" style="display:none">
+        <div class="container">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="/">
+                <img src="https://tensordock.com/assets/img/brand.png" class="navbar-brand-img" alt="...">
+            </a>
+
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapse -->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+
+                <!-- Toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fe fe-x"></i>
+                </button>
+
+                <!-- Navigation -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/deploy">
+                            Deploy Compute
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarAccount">
+                            <a class="dropdown-item" href="/deploy">
+                                Deploy a GPU VM
+                            </a>
+                            <a class="dropdown-item" href="/stock">
+                                Live GPU stock
+                            </a><a class="dropdown-item" href="/restrictions">
+                                GPU Instance restrictions
+                            </a>
+                            <a class="dropdown-item" href="/deploy_cpu">
+                                Deploy a CPU-only VM
+                            </a>
+                            <a class="dropdown-item" href="/stock_cpu">
+                                Live CPU-only instance stock
+                            </a><a class="dropdown-item" href="/restrictions_cpu">
+                                CPU-only Instance restrictions
+                            </a>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/deploy">
+                            Your Compute
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarAccount"><a class="dropdown-item" href="/list">
+                                List servers
+                            </a>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/billing">
+                            Your Account
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarAccount">
+                            
+                            <a class="dropdown-item" href="/billing">
+                                Billing
+                            </a>
+                            <a class="dropdown-item" href="/transactions/1">
+                                Transactions
+                            </a>
+                            <a class="dropdown-item" href="/api">
+                                API
+                            </a>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/support">
+                            Support
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarAccount"><a class="dropdown-item"
+                                href="/support">
+                                Support
+                            </a><a class="dropdown-item" href="mailto:support@tensordock.com">
+                                Email Us
+                            </a><a class="dropdown-item" href="https://docs.tensordock.com/">
+                                Documentation
+                            </a>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/deploy">
+                            You are not logged in
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarAccount"><a class="dropdown-item"
+                                href="/login">
+                                Log in
+                            </a><a class="dropdown-item" href="/register">
+                                Register
+                            </a>
+                        </ul>
+                    </li>
+                    <a class="navbar-btn btn btn-sm btn-primary lift ms-auto" href="https://tensordock.com">
+                        Back to TensorDock.com
+                    </a>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+
+    <div class="navbar-light shadow-lg flex-shrink-0 p-3 pt-5 bg-white h-100"
+        style="position: fixed; top: 0px; left: 0px; width: 260px; float: left; z-index: 5; overflow-y:auto" id="sidebar">
+        <div>
+            <ul class="list-unstyled ps-0 flex-column mb-auto"><a href="/"
+                    class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+                    <img src="https://tensordock.com/assets/img/brand.png" width="244px" height="49px">
+                </a>
+                <a href="/home"
+                    class="mb-1 btn btn-toggle align-items-center rounded collapsed ">
+                    Home
+                </a>
+                <li class="mb-1">
+                    <button class="btn btn-toggle btn-toggle-icon align-items-center rounded collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#deploy-collapse"
+                        aria-expanded="false">
+                        Deploy GPUs
+                    </button>
+                    <div class="collapse " id="deploy-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="/deploy"
+                                    class="link-dark rounded ">Deploy
+                                    a GPU Server</a></li>
+                            <li><a href="/stock"
+                                    class="link-dark rounded  ">Live
+                                    GPU Stock</a></li>
+                            <li><a href="/restrictions"
+                                    class="link-dark rounded  ">Instance
+                                    Restrictions</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mb-1">
+                    <button class="btn btn-toggle btn-toggle-icon align-items-center rounded collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#deploy-collapse-cpu"
+                        aria-expanded="false">
+                        Deploy CPUs
+                    </button>
+                    <div class="collapse "
+                        id="deploy-collapse-cpu">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="/deploy_cpu"
+                                    class="link-dark rounded ">Deploy
+                                    a CPU Server</a></li>
+                            <li><a href="/stock_cpu"
+                                    class="link-dark rounded ">Live
+                                    CPU Stock</a></li>
+                            <li><a href="/restrictions_cpu"
+                                    class="link-dark rounded ">Instance
+                                    Restrictions</a></li>
+                        </ul>
+                <li>
+                    <a class="mb-1 btn btn-toggle" href="/order_subscription">
+                        Order Subscription
+                    </a>
+                </li>
+
+                </li><a href="/list"
+                    class="mb-1 btn btn-toggle align-items-center rounded collapsed ">
+                    Your Servers
+                </a>
+                <li class="mb-1">
+                    <button class="btn btn-toggle btn-toggle-icon align-items-center rounded collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#billing-collapse"
+                        aria-expanded="false">
+                        Billing
+                    </button>
+                    <div class="collapse "
+                        id="billing-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            
+                            <li><a href="/billing"
+                                    class="link-dark rounded ">Account
+                                    Billing</a></li>
+                            <li><a href="/transactions/1"
+                                    class="link-dark rounded ">View
+                                    Transactions</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="/api"
+                        class="mb-1 btn btn-toggle align-items-center rounded collapsed ">
+                        API
+                    </a>
+                </li>
+                <li><a href="https://docs.tensordock.com"
+                        class="mb-1 btn btn-toggle align-items-center rounded collapsed" target="_blank">
+                        Documentation&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i>
+                    </a>
+                </li>
+                <li><a href="/support"
+                        class="mb-1 btn btn-toggle align-items-center rounded collapsed ">
+                        Support
+                    </a>
+                </li><a href="https://tensordock.com" target="_blank"
+                    class="mb-1 btn btn-toggle align-items-center rounded collapsed">
+                    tensordock.com&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i>
+                </a>
+                <li class="border-top my-3"></li>
+            </ul>
+            <div class="dropdown">
+                <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle"
+                    id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="https://console.tensordock.com/static/img/avatar.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                    <strong class="text-truncate">You are not logged in</strong>
+                </a>
+                <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                    <li><a class="dropdown-item" href="/login">Log in</a></li>
+                    <li><a class="dropdown-item" href="/register">Register</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="/support">Get help logging in</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Title -->
+    <div style="width: calc(100% - 260px); float: right;" class="bg-light min-vh-100" id="mainbody">
+        <div class="w-100" style="padding-left: 0px;">
+            
+
+
+<header class="bg-warning pt-9 pb-11 d-none d-md-block">
+    <div class="container-md">
+        <div class="row align-items-center">
+            <div class="col">
+                <h1 class="fw-bold mb-2">
+                    A Internal Server Error Has Occurred!
+                </h1>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="p-5 container w-100">
+    <div class="row">
+        <div class="col">
+            <div class="card shadow mb-6">
+                <div class="card-header">
+                    <h1 class="mb-0">
+                        500 Error
+                    </h1>
+                </div>
+                <div class="card-body">
+                    <div class="list-group list-group-flush">
+                        <div class="list-group-item">
+                            <div class="col">
+                                <h1></h1>
+                                <p>Hey, sorry about this, but an error has occurred. Email us at <a href="mailto:support@tensordock.com">support@tensordock.com</a>, and we will promptly work to resolve this issue. Thanks!
+                                </p>
+                                <p>Click <a href="https://console.tensordock.com/deploy">here</a> to return to the main page.</p>
+                                <br>
+                                <b>Thanks again for your cooperation!</b>
+                                <br><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        </div>
+    </div>
+
+    <div id="toastContainer" class="toast-container position-fixed top-0 right-0 p-3" style="z-index: 9999;">
+        <div id="exampleToast">
+            <div id="toast_id" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true"
+                data-delay="10000">
+                <div class="toast-header bg-toast_color">
+                    <strong class="mr-auto text-dark">toast_title</strong>
+                    <button type="button" class="btn-close" data-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    toast_body
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/static/js/vendor.bundle.js"></script>
+    <script src="/static/js/theme.bundle.js"></script>
+    <script>
+        window.onload = (event) => {
+            fadeInPage();
+        };
+
+        // Fade in page
+        function fadeInPage() {
+            if (!window.AnimationEvent) {
+                return;
+            }
+            var fader = document.getElementById('fader');
+            fader.classList.add('fade-out');
+            setTimeout(function () {
+                document.getElementById('slider').style.display = "none"
+            }, 300);
+        }
+
+        /* Fade in page if back button was used */
+        (function () {
+            window.onpageshow = function (event) {
+                if (event.persisted) {
+                    fadeInPage()
+                }
+            };
+        })();
+
+        document.addEventListener('DOMContentLoaded', function () {
+            if (!window.AnimationEvent) {
+                return;
+            }
+            var anchors = document.getElementsByTagName('a');
+
+            for (var idx = 0; idx < anchors.length; idx += 1) {
+                if (anchors[idx].hostname !== window.location.hostname ||
+                    anchors[idx].pathname === window.location.pathname ||
+                    anchors[idx].target === "_blank") {
+                    continue;
+                }
+                anchors[idx].addEventListener('click', function (event) {
+                    document.getElementById('slider').style.display = "block";
+                    var fader = document.getElementById('fader'),
+                        anchor = event.currentTarget;
+
+                    var listener = function () {
+                        window.location = anchor.href;
+                        fader.removeEventListener('animationend', listener);
+                    };
+                    fader.addEventListener('animationend', listener);
+
+                    event.preventDefault();
+                    fader.classList.add('fade-in');
+                });
+            }
+        });
+
+        window.addEventListener('pageshow', function (event) {
+            if (!event.persisted) {
+                return;
+            }
+            var fader = document.getElementById('fader');
+            fader.classList.remove('fade-in');
+        });
+
+        // For Toasts
+        function makeid(length) {
+            var result = '';
+            var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            var charactersLength = characters.length;
+            for (var i = 0; i < length; i++) {
+                result += characters.charAt(Math.floor(Math.random() *
+                    charactersLength));
+            }
+            return result;
+        }
+
+
+        function showNotification(title, body, color) {
+            var id = makeid(50);
+            var toast = document.createElement("div");
+            toast.innerHTML = document.getElementById("exampleToast").innerHTML.replace("toast_title", title).replace("toast_body", body).replace("toast_color", color).replace("toast_id", id);
+            document.getElementById("toastContainer").appendChild(toast);
+
+            var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+            var toastList = toastElList.map(function (toastEl) {
+                return new bootstrap.Toast(toastEl)
+            })
+
+            console.log(toast);
+
+            bootstrap.Toast.getInstance(document.getElementById(id)).show();
+        }
+
+        function showAlert(message) {
+            showNotification("Alert", message, "warning")
+        }
+
+        function showError(message) {
+            showNotification("Error", message, "danger")
+        }
+
+        function showSuccess(message) {
+            showNotification("Success", message, "light")
+        }
+
+        function updateDepositButton() {
+            var depositValue = parseInt(document.getElementById('fundsDepositAmount').value);
+            console.log(depositValue);
+            if (depositValue < 5) {
+                replaceClass("depositFundsBtn", "btn-primary", "btn-secondary");
+            } else {
+                replaceClass("depositFundsBtn", "btn-secondary", "btn-primary");
+            }
+        }
+
+        function updatePromoButton() {
+            var promoValue = document.getElementById('promoCodeInput').value;
+            console.log(promoValue);
+            if (promoValue.trim().length == 0) {
+                replaceClass("promoCodeBtn", "btn-primary", "btn-secondary");
+            } else {
+                replaceClass("promoCodeBtn", "btn-secondary", "btn-primary");
+            }
+        }
+
+
+    </script>
+
+    <script src="https://js.stripe.com/v3/"></script>
+    <script type="text/javascript">
+        // Stripe public key here
+        var stripe = Stripe('pk_live_51JqNQYHSshR0IOtvfpFJ335VCKxHeyzKzGT8XaWMNvt5ye74VXApsofamVwZN3Ec2H9Y9Ap5WsVlVwxgnEL1Ys7R00rbTg3ky9');
+        var depositValue = document.getElementById('fundsDepositAmount').value;
+        var checkoutButton = document.getElementById("depositFundsBtn");
+        checkoutButton.addEventListener("click", function () {
+            var depositValue = document.getElementById('fundsDepositAmount').value;
+            if (depositValue >= 5) {
+                fetch("/createDepositFundsSession/" + document.getElementById("fundsDepositAmount").value, {
+                    method: "POST",
+                })
+                    .then(function (response) {
+                        return response.json();
+                    })
+                    .then(function (session) {
+                        return stripe.redirectToCheckout({
+                            sessionId: session.id
+                        });
+                    })
+                    .then(function (result) {
+                        // If redirectToCheckout fails due to a browser or network
+                        // error, you should display the localized error message to your
+                        // customer using error.message.
+                        if (result.error) {
+                            alert(result.error.message);
+                        }
+                    })
+                    .catch(function (error) {
+                        console.error("Error:", error);
+                    });
+            }
+        });
+
+        var promoCodeButton = document.getElementById("promoCodeBtn");
+        promoCodeButton.addEventListener("click", function () {
+            if (document.getElementById("promoCodeInput").value.trim().length != 0) {
+                var code = document.getElementById('promoCodeInput').value;
+                const Http = new XMLHttpRequest();
+                const url = '/promo_code/' + code;
+                Http.open("POST", url);
+                Http.send();
+                Http.onreadystatechange = (e) => {
+                    if (Http.readyState === 4) {
+                        if (Http.status == 200) {
+                            window.location.assign(window.location.pathname + "?promoSuccess")
+                        } else {
+                            window.location.assign(window.location.pathname + "?promoFailed")
+                        }
+                    }
+                }
+            }
+        });
+
+
+        function replaceClass(id, oldClass, newClass) {
+            var elem = document.getElementById(id);
+            if (elem.classList.contains(oldClass)) {
+                elem.classList.remove(oldClass);
+                elem.classList.add(newClass);
+            }
+        }
+
+
+        function initNotification() {
+            if (location.search.includes("promoSuccess")) {
+                showSuccess('Your promo code has been applied!');
+            }
+            if (location.search.includes("promoFailed")) {
+                showError("Your promo code has failed. Make sure the code is valid, isn't expired, and that you haven't used it before. Email us at support@tensordock.com if you have any questions.");
+            }
+        }
+        $(document).ready(function () {
+            initNotification();
+        });
+    </script>
+</body>
+
+</html>
